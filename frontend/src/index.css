@@ -1,0 +1,115 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background: #ffe5b4; /* Light creamy background */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Pane - Text Section */
+.left-pane {
+  flex: 1;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d35400; /* Pizza-like orange-red */
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.order-button {
+  background: #e74c3c; /* Bold red */
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.order-button:hover {
+  background: #c0392b;
+}
+
+/* Right Pane - Pizza Images */
+.right-pane {
+  display: flex;
+  gap: 10px;
+}
+
+.small-pizza {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.small-pizza:hover {
+  transform: scale(1.5);
+}
+
+/* About Us Section */
+.about-us {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 50px 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h3 {
+  font-size: 2rem;
+  color: #e67e22; /* Orange */
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto 15px auto;
+  line-height: 1.6;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 30px;
+  background-color: white; /* White navbar background */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styling */
+.navbar .logo {
+  height: 60px; /* Adjust size as needed */
+  width: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  background-color: #ff4500; /* Orange button */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px; /* Small rounded rectangles */
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #e03e00; /* Darker orange on hover */
+  font-size: 20px; /* Slightly bigger text */
+}

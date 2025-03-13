@@ -1,0 +1,20 @@
+.footer {
+    background-color: #f2e3e3;
+    color: rgb(92, 85, 85);
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    width: 100%;
+    position: relative; /* Makes it appear at the bottom only when scrolling ends */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the page takes at least full height */
+  }
+  
+  .content {
+    flex: 1; /* Pushes the footer to the bottom when there's less content */
+  }
+  
